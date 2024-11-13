@@ -20,9 +20,15 @@ const Navbar = () => {
         {["Market", "Exchange", "Tutorials", "Wallets"].map((item, index) => (
           <NavBarItem key={item + index} title={item} />
         ))}
-        <li className="bg-[#2952e3] py-2 px-7 mx-4 rounded-full cursor-pointer hover:bg-[#2546bd]">
-          Login
-        </li>
+        <a
+          href="https://github.com/harshbisht27/Krypt-Web-3.0-Blockchain-App"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <li className="bg-[#2952e3] py-2 px-7 mx-4 rounded-full cursor-pointer hover:bg-[#2546bd]">
+            ⭐️ Give me a Star
+          </li>
+        </a>
       </ul>
       <div className="flex relative">
         {!toggleMenu && (
